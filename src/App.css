@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(29, 34, 39);
+}
+.container{
+    width: 1140px;
+    padding: 0px 15px;
+    margin: auto;
+}body{
+    background: rgba(6, 5, 5, 0.247);
+}
+.header h5{
+    display: flex;
+    align-items: center;
+    font-size: 1.23rem;
+    color: #fff;
+}
+
+.country_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2-rem;
+}.country_card{
+    width: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    background: hsl(209, 23%, 22%);
+    color: #fff;
+
+}.country_img img{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+.all_country_wrapper{
+    margin-top: 100px;
+}.country_data{
+    padding: 20px;
+}.country_data h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}.country_data h6{
+    margin-bottom: 10px;
+    font-weight: 400;
+    opacity: 80%;
+}.country_bottom h4{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+input{
+    padding: 7px 25px;
+    color: #fff;
+    border-radius: 5px;
+    background: hsl(209, 23%, 22%);
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}::placeholder{
+    color: #fff;
+}.country_top{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 50px;
+}select{
+    padding: 10px 25px;
+    background-color: hsl(209, 23%, 22%);
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
